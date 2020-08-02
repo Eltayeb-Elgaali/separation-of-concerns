@@ -10,7 +10,9 @@ console.log(divEl.nodeName, divEl.cloneNode(true));
 
 // --- write some code ---
 
-
+const navEl = document.createElement('nav');
+const child0 = divEl.children[0];
+divEl.replaceChild(navEl, child0);
 
 
 // --- --- --- --- --- ---

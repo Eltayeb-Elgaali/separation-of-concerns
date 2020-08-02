@@ -9,7 +9,14 @@ ulEl.innerHTML = `
 console.log(ulEl.nodeName, ulEl.cloneNode(true));
 
 // --- write some code ---
+const item1 = ulEl.children[0];
+item1.innerHTML = 'toad';
 
+const item2 = ulEl.children[1];
+item2.innerHTML = 'frog';
+
+const item3 = ulEl.children[2];
+item3.innerHTML = 'salamander';
 
 
 

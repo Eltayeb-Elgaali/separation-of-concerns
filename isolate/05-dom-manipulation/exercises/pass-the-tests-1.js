@@ -9,18 +9,15 @@ divEl.innerHTML = `
 console.log(divEl.nodeName + ' (before)', divEl.cloneNode(true));
 
 // --- write some code ---
-<<<<<<< HEAD
 
 const navEl = document.createElement('nav');
 const child0 = divEl.children[0];
 divEl.replaceChild(navEl, child0);
-=======
+
 //  replace the <p>
 //  insert something before the <section>
 //  remove the <h1>
 //  append something to the end
-
->>>>>>> 00858064d0dcd39d1dddcd99200637def848ff2c
 
 
 // --- --- --- --- --- ---
